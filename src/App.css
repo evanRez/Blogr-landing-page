@@ -1,5 +1,22 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+:root {
+  --vlRedIntro: hsl(13, 100%, 72%);
+  --lRedIntro: hsl(353, 100%, 62%);
+  --hoverRed: hsl(355, 100%, 74%);
+}
+
+.blogr {
+  font-family: "Overpass", sans-serif;
+  font-weight: 600;
+  line-height: 2.2rem;
+  padding: 25px 70px;
+  display: inline;
+  font-size: 40px;
+}
+.topLine {
+  display: flex;
 }
 .attribution {
   font-size: 11px;
@@ -7,4 +24,88 @@
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  background-image: url(./images/bg-pattern-intro.svg),
+    linear-gradient(to right, var(--vlRedIntro), var(--lRedIntro));
+
+  background-size: 2350px 2350px;
+  background-position: -300px -1000px;
+  height: 400px;
+  color: white;
+  padding: 0 60px;
+}
+
+.intro-sentence-container {
+  display: flex;
+  font-family: "Overpass";
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn-callto-container {
+  display: flex;
+  justify-content: center;
+}
+.div-to-center {
+  display: flex;
+  justify-content: center;
+}
+
+.login-signup {
+  margin-left: 420px;
+}
+
+.btn {
+  border: 1px solid white;
+  background: none;
+  color: #fff;
+  border-radius: 50px;
+  padding: 8px;
+  margin: 0 10px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.action {
+  color: orangered;
+  background: #fff;
+  border-radius: 15px;
+  padding: 8px;
+}
+
+.no-border {
+  border: none;
+}
+
+.signup {
+  padding: 8px 25px;
+}
+
+.bigTitle {
+  font-size: 40px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0;
+}
+.smallTitle {
+  font-size: 20px;
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: var(--lRedIntro);
+}
+
+.btn.action:hover {
+  background-color: var(--hoverRed);
+  color: #fff;
 }
