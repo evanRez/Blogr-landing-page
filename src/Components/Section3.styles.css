@@ -41,13 +41,14 @@
   font-size: 16px;
 }
 
-.editor-div {
+.laptop-div {
   margin-top: 0;
 }
 
-.editor-img {
+.laptop-img {
   position: absolute;
   transform: translate(50px, -250px) scale(0.75);
+  background-color: rebeccapurple;
 }
 
 .text-column {
