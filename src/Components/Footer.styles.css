@@ -26,7 +26,8 @@
   flex: 1;
   color: #fff;
   font-family: "Overpass", sans-serif;
-  font-weight: bold;
+  /* font-weight: 600; */
+  font-weight: bolder;
 }
 
 .col-title {
@@ -37,4 +38,9 @@
 
 .cat {
   line-height: 2;
+}
+
+.cat:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }

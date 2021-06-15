@@ -28,13 +28,13 @@
   font-family: "Overpass";
 }
 
-.section1-subtitle {
+.section3-subtitle {
   color: var(--darkBlue);
   font-weight: 600;
-  font-size: 18px;
+  font-size: 22px;
 }
 
-.section1-para {
+.section3-para {
   color: var(--bodyText);
   line-height: 2;
   font-weight: 300;
@@ -43,9 +43,9 @@
 
 .laptop-img {
   position: absolute;
-  transform: translate(-100px, 0px) scale(1.5);
+  transform: translate(-100px, 30px) scale(1.5);
 }
 
 .text-column {
-  padding-left: 30px;
+  padding-right: 120px;
 }

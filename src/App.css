@@ -1,0 +1,31 @@
+:root {
+  --vlRedIntro: hsl(13, 100%, 72%);
+  --lRedIntro: hsl(353, 100%, 62%);
+  --hoverRed: hsl(355, 100%, 74%);
+}
+
+.attribution {
+  height: 20px;
+  padding: 10px;
+  background-image: linear-gradient(
+    to right,
+    var(--vlRedIntro),
+    var(--lRedIntro)
+  );
+  color: #fff;
+}
+
+.attribution a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.attribution a:hover {
+  background-color: #fff;
+  color: var(--hoverRed);
+  text-decoration: none;
+  font-weight: bolder;
+  border-radius: 15px;
+  padding: 8px;
+}
