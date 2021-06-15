@@ -3,6 +3,7 @@ import AppHeader from "./Components/AppHeader";
 import Section1 from "./Components/Section1";
 import Section2 from "./Components/Section2";
 import Section3 from "./Components/Section3";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -12,13 +13,9 @@ function App() {
         <Section1 />
         <Section2 />
 
-        <div style={{ marginTop: "200px" }}>
-          <Section3 />
-        </div>
-        <div>
-          Product Overview Pricing Marketplace Features Integrations Company
-          About Team Blog Careers Connect Contact Newsletter LinkedIn
-        </div>
+        <Section3 />
+
+        <Footer />
       </body>
 
       <div className="attribution">

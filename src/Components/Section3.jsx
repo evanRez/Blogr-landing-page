@@ -1,6 +1,6 @@
 import React from "react";
 import laptop from "../images/illustration-laptop-mobile.svg";
-import "./Section1.styles.css";
+import "./Section3.styles.css";
 
 function Section1() {
   return (
