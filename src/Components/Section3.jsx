@@ -5,7 +5,7 @@ import "./Section3.styles.css";
 function Section1() {
   return (
     <div className="section1-bg">
-      <div className="grid-container">
+      <div className="grid-container-sec-3">
         <div className="laptop-div">
           <img className="laptop-img" src={laptop} />
         </div>

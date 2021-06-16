@@ -7,7 +7,7 @@ function Section1() {
     <div className="section1-bg">
       <h2 className="section1-title">Designed for the future </h2>
       <div className="grid-container">
-        <div className="text-column">
+        <div className="text-column-1">
           <h4 className="section1-subtitle">
             Introducing an extensible editor
           </h4>

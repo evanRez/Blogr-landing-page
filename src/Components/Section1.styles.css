@@ -31,7 +31,7 @@
 .section1-subtitle {
   color: var(--darkBlue);
   font-weight: 600;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .section1-para {
@@ -39,6 +39,7 @@
   line-height: 2;
   font-weight: 300;
   font-size: 16px;
+  margin-bottom: 60px;
 }
 
 .editor-div {
@@ -47,9 +48,9 @@
 
 .editor-img {
   position: absolute;
-  transform: translate(50px, -250px) scale(0.75);
+  transform: translate(50px, -210px) scale(0.75);
 }
 
-.text-column {
-  padding-left: 30px;
+.text-column-1 {
+  padding-left: 120px;
 }

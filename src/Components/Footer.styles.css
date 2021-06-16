@@ -3,8 +3,7 @@
   --txtColor: hsl(240, 2%, 79%);
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap");
 
 .bgDarkBlue {
   background-color: var(--vDarkBlueBg);
@@ -26,8 +25,7 @@
   flex: 1;
   color: #fff;
   font-family: "Overpass", sans-serif;
-  /* font-weight: 600; */
-  font-weight: bolder;
+  font-weight: 600;
 }
 
 .col-title {

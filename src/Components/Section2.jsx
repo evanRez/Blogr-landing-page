@@ -5,7 +5,7 @@ import "./Section2.styles.css";
 function Section2() {
   return (
     <div className="blueBg">
-      <div className="grid-container">
+      <div className="grid-container-sec-2">
         <div>
           <img
             src={CellPhone}
