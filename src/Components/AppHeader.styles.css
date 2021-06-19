@@ -69,7 +69,8 @@
 }
 
 .login-signup {
-  margin-left: 420px;
+  margin-left: 90%;
+  display: flex;
 }
 
 .btn {
@@ -80,6 +81,8 @@
   padding: 8px;
   margin: 0 10px;
   font-family: "Ubuntu", sans-serif;
+  white-space: nowrap;
+  text-align: center;
 }
 
 .action {
