@@ -28,7 +28,7 @@ function Section1() {
           </div>
         </div>
         <div className="editor-div">
-          <img className="editor-img" src={editor} />
+          <img className="editor-img" src={editor} alt="editor" />
         </div>
       </div>
     </div>

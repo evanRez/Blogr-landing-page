@@ -11,12 +11,14 @@ function AppHeader() {
     <div className="header">
       <div className="topLine">
         <img className="header-logo" src={Logo} alt="logo" />
-        <img
-          src={burgerIcon}
-          alt="hamburger-icon"
-          className={`hamburger-icon ${isActive ? "active" : "inactive"}`}
-          onClick={onClick}
-        />
+        <>
+          <img
+            src={burgerIcon}
+            alt="hamburger-icon"
+            className={`hamburger-icon ${isActive ? "active" : "inactive"}`}
+            onClick={onClick}
+          />
+        </>
         <div className={`navbar-links ${isActive ? "active" : "inactive"}`}>
           <DropdownMenu
             dropDownCat="Product"

@@ -23,10 +23,10 @@ const DropdownMenu = (props) => {
         className={`menu ${isActive ? "active" : "inactive"}`}
       >
         <ul>
-          {props.dropDownLinks.map((link) => {
+          {props.dropDownLinks.map((link, idx) => {
             return (
-              <li>
-                <a href="#">{link}</a>
+              <li key={idx}>
+                <div>{link}</div>
               </li>
             );
           })}

@@ -44,14 +44,14 @@
   border-bottom: 1px solid #dddddd;
 }
 
-.menu li a {
+.menu li div {
   text-decoration: none;
   color: #333333;
   padding: 15px 20px;
   display: block;
 }
 
-.menu li a:hover {
+.menu li div:hover {
   color: black;
   font-weight: bold;
 }
@@ -126,7 +126,7 @@
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
     padding-top: 7%;
   }
-  .menu li a:hover {
+  .menu li div:hover {
     color: rgb(58, 57, 57);
     font-weight: normal;
   }

@@ -7,8 +7,8 @@ import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <body>
+    <>
+      <div className="App">
         <AppHeader />
         <Section1 />
         <Section2 />
@@ -16,16 +16,24 @@ function App() {
         <Section3 />
 
         <Footer />
-      </body>
 
-      <div className="attribution">
-        Challenge by{" "}
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
-          Frontend Mentor
-        </a>
-        . Coded by <a href="https://www.reznitek.com/">Evan Reznicek</a>.
+        <div className="attribution">
+          Challenge by{" "}
+          <a
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Frontend Mentor
+          </a>
+          . Coded by{" "}
+          <a href="https://www.reznitek.com/" rel="noreferrer">
+            Evan Reznicek
+          </a>
+          .
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 

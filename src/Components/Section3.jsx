@@ -7,7 +7,7 @@ function Section1() {
     <div className="section3-bg">
       <div className="grid-container-sec-3">
         <div className="laptop-div">
-          <img className="laptop-img" src={laptop} />
+          <img className="laptop-img" src={laptop} alt="laptop" />
         </div>
         <div className="text-column">
           <h4 className="section3-subtitle">Free, open, simple</h4>
