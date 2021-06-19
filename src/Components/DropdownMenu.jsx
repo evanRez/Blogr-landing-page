@@ -12,7 +12,11 @@ const DropdownMenu = (props) => {
     <div className="menu-container">
       <button onClick={onClick} className="menu-trigger">
         <span>{props.dropDownCat}</span>
-        <img src={liteArrow} alt="arrow" />
+        <img
+          src={liteArrow}
+          alt="arrow"
+          className={`arrow-icon ${isActive ? "active" : "inactive"}`}
+        />
       </button>
       <nav
         ref={dropdownRef}

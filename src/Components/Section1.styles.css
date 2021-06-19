@@ -54,3 +54,34 @@
 .text-column-1 {
   padding-left: 120px;
 }
+
+@media screen and (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 100%;
+    text-align: center;
+  }
+  .editor-div {
+    order: 1;
+  }
+  .text-column-1 {
+    order: 2;
+    padding-left: 0px;
+  }
+  .editor-div {
+    position: relative;
+  }
+  .editor-img {
+    position: relative;
+    height: 400px;
+    transform: none;
+  }
+  .section1-subtitle {
+    font-size: 2rem;
+  }
+  .section1-para {
+    font-size: 1.1rem;
+  }
+  .section1-bg {
+    margin-bottom: 100px;
+  }
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.styles.css";
+import Logo from "../images/logo.svg";
 
 const ProductArr = [
   "Overview",
@@ -17,7 +18,9 @@ function Footer() {
   return (
     <div className="bgDarkBlue">
       <div className="flex-grid">
-        <h1 className="footer-title">Blogr</h1>
+        <div className="col">
+          <img className="footer-logo" src={Logo} alt="logo" />
+        </div>
         <div className="col">
           <div className="col-title">Product</div>
           {ProductArr.map((cat) => {

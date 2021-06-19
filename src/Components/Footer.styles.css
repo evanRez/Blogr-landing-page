@@ -15,17 +15,17 @@
 .flex-grid {
   display: flex;
   padding: 60px 60px;
+  flex-wrap: wrap;
 }
 
 .col {
   flex: 1;
 }
 
-.footer-title {
-  flex: 1;
-  color: #fff;
-  font-family: "Overpass", sans-serif;
-  font-weight: 600;
+.footer-logo {
+  margin-left: 50px;
+  margin-top: 25px;
+  transform: scale(0.8);
 }
 
 .col-title {
@@ -41,4 +41,22 @@
 .cat:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .flex-grid {
+    flex-direction: column;
+    text-align: center;
+  }
+  .bgDarkBlue {
+    height: auto;
+  }
+  .footer-logo {
+    margin: 0;
+    transform: scale(1.2);
+    padding-bottom: 20px;
+  }
+  .col-title {
+    font-weight: 600;
+  }
 }

@@ -58,3 +58,32 @@
   position: absolute;
   top: -70px;
 }
+
+@media screen and (max-width: 768px) {
+  .cellPhoneDemo {
+    transform: translate(-50%, -45%) scale(0.7);
+    position: absolute;
+  }
+  .cellPhone-div {
+    position: relative;
+  }
+  .grid-container-sec-2 {
+    grid-template-columns: 100%;
+    text-align: center;
+  }
+  .blueBg {
+    height: 90vh;
+  }
+  .section2-text {
+    padding: 100px 0 0 0;
+    font-size: 1.1rem;
+  }
+  .section2-title {
+    font-size: 2rem;
+    padding-top: 20%;
+  }
+  .blueBg::before {
+    background-position: -125px -240px;
+    background-size: 600px;
+  }
+}

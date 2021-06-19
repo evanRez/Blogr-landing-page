@@ -1,13 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import DropdownMenu from "./DropdownMenu";
 import "./AppHeader.styles.css";
+import Logo from "../images/logo.svg";
+import burgerIcon from "../images/icon-hamburger.svg";
 
 function AppHeader() {
+  const [isActive, setIsActive] = useState(false);
+  const onClick = () => setIsActive(!isActive);
   return (
     <div className="header">
       <div className="topLine">
-        <h1 className="blogr">Blogr</h1>
-        <div className="navbar-links">
+        <img className="header-logo" src={Logo} alt="logo" />
+        <img
+          src={burgerIcon}
+          alt="hamburger-icon"
+          className={`hamburger-icon ${isActive ? "active" : "inactive"}`}
+          onClick={onClick}
+        />
+        <div className={`navbar-links ${isActive ? "active" : "inactive"}`}>
           <DropdownMenu
             dropDownCat="Product"
             dropDownLinks={[
@@ -32,6 +42,7 @@ function AppHeader() {
           </div>
         </div>
       </div>
+
       <div className="div-to-center">
         <div className="intro-sentence-container">
           <h1 className="bigTitle">A modern publishing platform</h1>

@@ -4,6 +4,11 @@
   --hoverRed: hsl(355, 100%, 74%);
 }
 
+.App {
+  flex-grow: 1;
+  overflow: hidden;
+}
+
 .attribution {
   height: 20px;
   padding: 10px;

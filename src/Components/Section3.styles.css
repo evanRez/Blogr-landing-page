@@ -15,13 +15,13 @@
   margin-top: 150px;
 }
 
-.section1-bg {
+.section3-bg {
   background-color: #fff;
   padding: 120px 0;
   overflow: hidden;
 }
 
-.section1-title {
+.section3-title {
   display: flex;
   justify-content: center;
   color: var(--darkBlue);
@@ -50,4 +50,40 @@
 
 .text-column {
   padding-right: 120px;
+}
+
+@media screen and (max-width: 768px) {
+  .grid-container-sec-3 {
+    grid-template-columns: 100%;
+    text-align: center;
+  }
+  .laptop-div {
+    order: 1;
+  }
+  .text-column-3 {
+    order: 2;
+    padding-left: 0px;
+  }
+  .laptop-div {
+    position: relative;
+  }
+  .laptop-img {
+    position: relative;
+
+    transform: translate(-20%, 10px);
+  }
+  .section3-subtitle {
+    font-size: 2rem;
+  }
+  .section3-para {
+    font-size: 1.1rem;
+  }
+
+  .text-column {
+    padding-right: 0px;
+    order: 2;
+  }
+  .section3-bg {
+    padding: 0;
+  }
 }

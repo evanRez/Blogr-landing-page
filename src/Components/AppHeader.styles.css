@@ -17,6 +17,7 @@
 }
 .topLine {
   display: flex;
+  position: relative;
 }
 .attribution {
   font-size: 11px;
@@ -41,6 +42,14 @@
   color: white;
   padding: 0 60px;
   border-bottom-left-radius: 55px;
+}
+
+.header-logo {
+  display: block;
+  margin-top: 3em;
+  margin-bottom: 3rem;
+  margin-left: 3rem;
+  margin-right: 2.5rem;
 }
 
 .intro-sentence-container {
@@ -77,7 +86,7 @@
   color: orangered;
   background: #fff;
   border-radius: 15px;
-  padding: 8px;
+  padding: 8px 14px;
 }
 
 .no-border {
@@ -98,6 +107,7 @@
   font-size: 20px;
   margin-top: 0;
   font-weight: 400;
+  text-align: center;
 }
 
 .btn:hover {
@@ -110,3 +120,76 @@
   background-color: var(--hoverRed);
   color: #fff;
 }
+
+.hamburger-icon {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 0 15px;
+    height: 90vh;
+    background-image: url(../images/bg-pattern-intro.svg),
+      linear-gradient(to bottom, var(--vlRedIntro), var(--lRedIntro));
+    background-size: 1150px 1250px;
+    background-position: -250px -250px;
+    color: white;
+    border-bottom-left-radius: 55px;
+  }
+  .header-logo {
+    margin-left: 1rem;
+  }
+  .bigTitle {
+    font-size: 2.4rem;
+    margin-bottom: 5%;
+    margin-top: 20%;
+  }
+  .btn-callto-container {
+    margin-top: 8%;
+  }
+  .navbar-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 38%;
+    width: 100%;
+    align-content: center;
+    background-color: #fff;
+    display: none;
+  }
+  .login-signup {
+    flex-direction: column;
+    display: flex;
+    margin-left: 0px;
+  }
+  .hamburger-icon {
+    display: flex;
+    width: 30px;
+    height: 20px;
+    margin-left: 40%;
+    margin-top: 15%;
+  }
+  .hamburger-icon.active {
+    content: url(../images/icon-close.svg);
+    width: 20px;
+  }
+  .navbar-links.active {
+    display: flex;
+  }
+  .action {
+    font-size: 1rem;
+  }
+  .btn {
+    font-size: 1rem;
+    padding: 12px 15px;
+    border-radius: 50px;
+    font-weight: 600;
+  }
+}
+/* @media screen and (min-width: 769px) {
+  .navbar-links {
+    display: flex;
+    align-items: center;
+  }
+} */

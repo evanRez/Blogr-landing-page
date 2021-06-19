@@ -6,7 +6,7 @@ function Section2() {
   return (
     <div className="blueBg">
       <div className="grid-container-sec-2">
-        <div>
+        <div className="cellPhone-div">
           <img
             src={CellPhone}
             className="cellPhoneDemo"
